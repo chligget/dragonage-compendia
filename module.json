@@ -1,80 +1,108 @@
-{   
-    "name": "dragonage-compendia",   
-    "title": "Dragon Age Compendia",   
-    "description": "<p>Compendia collection for use with vkdolea's AGE system, specifically for the Dragon AGE tabletop developed by Green Ronin.</p><p>Currently contains all foci, items, powers, spells, stunts, and talents.</p><p>All non-Foundry media assets are the sole property of BioWare EA.</p>",   
-    "author": "Deputy55",
-    "version": "1.0.2",
-    "minimumCoreVersion": "0.9.0",
-    "compatibleCoreVersion":"0.9.269",
-    "download": "https://github.com/chligget/dragonage-compendia/releases/latest/download/module.zip",
-    "manifest": "https://raw.githubusercontent.com/chligget/dragonage-compendia/master/module.json",
-    "dependencies": [
-        {
-          "name": "compendium-folders",
-          "type": "module",
-          "manifest": "https://github.com/earlSt1/vtt-compendium-folders/blob/master/module.json"
-        },
-        {
-          "name": "age-system",
-          "type": "system"
-        }
-    ],
-    "packs": [
-        {
-          "name": "foci",
-          "label": "Dragon AGE Foci",
-          "path": "packs/foci.db",
-          "type": "Item",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        },
-        {
-          "name": "inventory",
-          "label": "Dragon AGE Items",
-          "path": "packs/inventory.db",
-          "type": "Item",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        },
-        {
-          "name": "powers",
-          "label": "Dragon AGE Powers",
-          "path": "packs/powers.db",
-          "type": "Item",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        },
-        {
-          "name": "spells",
-          "label": "Dragon AGE Spells",
-          "path": "packs/spells.db",
-          "type": "Item",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        },
-        {
-          "name": "stunts",
-          "label": "Dragon AGE Stunts",
-          "path": "packs/stunts.db",
-          "type": "Item",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        },
-        {
-          "name": "talents",
-          "label": "Dragon AGE Talents",
-          "path": "packs/talents.db",
-          "type": "Item",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        },
-        {
-          "name": "rules",
-          "label": "Dragon AGE Rules",
-          "path": "packs/rules.db",
-          "type": "JournalEntry",
-          "system": "age-system",
-          "module": "dragonage-compendia"
-        }
+{
+  "title": "Dragon Age Compendia",
+  "description": "<p>Compendia collection for use with vkdolea's AGE system, specifically for the Dragon AGE tabletop developed by Green Ronin.</p><p>Currently contains all foci, items, powers, spells, stunts, and talents.</p><p>All non-Foundry media assets are the sole property of BioWare EA.</p>",
+  "version": "1.0.3",
+  "download": "https://github.com/chligget/dragonage-compendia/releases/latest/download/module.zip",
+  "manifest": "https://raw.githubusercontent.com/chligget/dragonage-compendia/master/module.json",
+  "packs": [
+    {
+      "name": "foci",
+      "label": "Dragon AGE Foci",
+      "path": "packs/foci",
+      "type": "Item",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "inventory",
+      "label": "Dragon AGE Items",
+      "path": "packs/inventory",
+      "type": "Item",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "powers",
+      "label": "Dragon AGE Powers",
+      "path": "packs/powers",
+      "type": "Item",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Dragon AGE Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "stunts",
+      "label": "Dragon AGE Stunts",
+      "path": "packs/stunts",
+      "type": "Item",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "talents",
+      "label": "Dragon AGE Talents",
+      "path": "packs/talents",
+      "type": "Item",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rules",
+      "label": "Dragon AGE Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "system": "age-system",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "id": "dragonage-compendia",
+  "relationships": {
+    "requires": [],
+    "systems": [
+      {
+        "id": "age-system",
+        "type": "system",
+        "compatibility": {}
+      }
     ]
+  },
+  "compatibility": {
+    "minimum": "0.9.0",
+    "verified": "0.11.313"
   }
+}
