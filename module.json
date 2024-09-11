@@ -1,7 +1,7 @@
 {
   "title": "Dragon Age Compendia",
   "description": "<p>Compendia collection for use with vkdolea's AGE system, specifically for the Dragon AGE tabletop developed by Green Ronin.</p><p>Currently contains all foci, items, powers, spells, stunts, and talents.</p><p>All non-Foundry media assets are the sole property of BioWare EA.</p>",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "download": "https://github.com/chligget/dragonage-compendia/releases/latest/download/module.zip",
   "manifest": "https://raw.githubusercontent.com/chligget/dragonage-compendia/master/module.json",
   "packs": [
@@ -103,6 +103,6 @@
   },
   "compatibility": {
     "minimum": "0.9.0",
-    "verified": "0.11.313"
+    "verified": "0.12.331"
   }
 }
